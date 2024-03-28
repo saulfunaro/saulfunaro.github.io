@@ -1,50 +1,69 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Hippopotames</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Les Hippopotames</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Galerie</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+/* Styles généraux */
 
-    <main>
-        <section class="intro">
-            <h2>Bienvenue sur notre site dédié aux hippopotames !</h2>
-            <p>Découvrez tout ce que vous avez toujours voulu savoir sur ces fascinants animaux d'eau douce.</p>
-        </section>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-        <section class="about">
-            <h2>À propos des hippopotames</h2>
-            <p>Les hippopotames, souvent appelés "hippos", sont de grands mammifères semi-aquatiques originaires d'Afrique. Ils sont connus pour leur taille imposante, leur peau épaisse, et leurs dents impressionnantes.</p>
-        </section>
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
 
-        <section class="gallery">
-            <h2>Galerie de photos</h2>
-            <!-- Ajoutez ici des images de hippopotames -->
-        </section>
+header h1 {
+    margin: 0;
+}
 
-        <section class="contact">
-            <h2>Contactez-nous</h2>
-            <p>Pour toute question ou commentaire, n'hésitez pas à nous contacter.</p>
-            <!-- Ajoutez ici un formulaire de contact -->
-        </section>
-    </main>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    <footer>
-        <p>© 2024 Les Hippopotames. Tous droits réservés.</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styles spécifiques */
+
+.intro h2 {
+    color: #333;
+}
+
+.about, .gallery, .contact {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 
