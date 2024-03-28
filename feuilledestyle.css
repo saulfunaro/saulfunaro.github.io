@@ -1,15 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Hippopotames</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Les Hippopotames</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-h1 {
-    color: #007bff;
-}
+    <main>
+        <section class="intro">
+            <h2>Bienvenue sur notre site dédié aux hippopotames !</h2>
+            <p>Découvrez tout ce que vous avez toujours voulu savoir sur ces fascinants animaux d'eau douce.</p>
+        </section>
 
-p {
-    font-size: 1.2em;
-}
+        <section class="about">
+            <h2>À propos des hippopotames</h2>
+            <p>Les hippopotames, souvent appelés "hippos", sont de grands mammifères semi-aquatiques originaires d'Afrique. Ils sont connus pour leur taille imposante, leur peau épaisse, et leurs dents impressionnantes.</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Galerie de photos</h2>
+            <!-- Ajoutez ici des images de hippopotames -->
+        </section>
+
+        <section class="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question ou commentaire, n'hésitez pas à nous contacter.</p>
+            <!-- Ajoutez ici un formulaire de contact -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Les Hippopotames. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
